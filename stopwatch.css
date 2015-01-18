@@ -1,84 +1,84 @@
 body {
-			font-family: arial;
-		}
-		.stopwatchContainer {
-			width: 520px;
-			min-height: 760px;
-			padding-bottom: 20px;
-			background: #ebebf1;
-			color: #000;
-			border: 1px solid #929291;
-		}
-		.header {
-			text-align: center;
-			padding: 14px 0 18px 0;
-			font-size: 24pt;
-			font-weight: 900;
-		}
+	font-family: arial;
+}
+.stopwatchContainer {
+	width: 520px;
+	min-height: 760px;
+	padding-bottom: 20px;
+	background: #ebebf1;
+	color: #000;
+	border: 1px solid #929291;
+}
+.header {
+	text-align: center;
+	padding: 14px 0 18px 0;
+	font-size: 24pt;
+	font-weight: 900;
+}
 
-		.timeButton {
-			float: left;
-			width: 125px;
-			height: 78px;
-			border-radius: 50%;
-			text-align: center;
-			font-size: 22pt;
-			padding: 47px 0 0 0;
-			background: #FFF;
-			cursor: pointer;
-		}
+.timeButton {
+	float: left;
+	width: 125px;
+	height: 78px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 22pt;
+	padding: 47px 0 0 0;
+	background: #FFF;
+	cursor: pointer;
+}
 
-		.commands {
-			width: 300px;
-			margin: 25px auto 0;
-		}
+.commands {
+	width: 300px;
+	margin: 25px auto 0;
+}
 
-		#timetoggle {
-			color: #40db6c;
-			margin-right: 50px;
-		}
+#timetoggle {
+	color: #40db6c;
+	margin-right: 50px;
+}
 
-		#timetoggle.running {
-			color: #FF0000;
-		}
+#timetoggle.running {
+	color: #FF0000;
+}
 
-		#lap {
-			color: #000;
-		}
-		#totaltime {
-			float: right;
-			margin: 10px 30px 0 0;
-			font-size: 22pt;
-			color: #929291;
-		}
-		#laptime {
-			width: 84%;
-			margin: 49px auto 0;
-			text-align: center;
-			font-size: 85pt;
-		}
-		.timerbody { 
-			background: #FFF;
-			margin: 0;
-			width: 100%;
-			height: 190px;
-			border-top: 1px solid #929291;
-			border-bottom: 1px solid #929291;
-		}
-		#laps {
-			clear: both;
-			color: #929291;
-			font-size: 22pt;
-			margin: auto;
-			padding: 50px 0 0;
-			width: 80%;
-			display: block;
-		}
-		.laprow {
-			padding: 10px;
-			border-bottom: 1px solid #929291;
-		}
-		.laprow span {
-			float: right;
-			color: #000;
-		}
+#lap {
+	color: #000;
+}
+#totaltime {
+	float: right;
+	margin: 10px 30px 0 0;
+	font-size: 22pt;
+	color: #929291;
+}
+#laptime {
+	width: 84%;
+	margin: 49px auto 0;
+	text-align: center;
+	font-size: 85pt;
+}
+.timerbody { 
+	background: #FFF;
+	margin: 0;
+	width: 100%;
+	height: 190px;
+	border-top: 1px solid #929291;
+	border-bottom: 1px solid #929291;
+}
+#laps {
+	clear: both;
+	color: #929291;
+	font-size: 22pt;
+	margin: auto;
+	padding: 50px 0 0;
+	width: 80%;
+	display: block;
+}
+.laprow {
+	padding: 10px;
+	border-bottom: 1px solid #929291;
+}
+.laprow span {
+	float: right;
+	color: #000;
+}
